@@ -19,6 +19,21 @@
   }
 }
 
+@theme {
+  --color-brand: #b4d455;
+  --font-display: 'Satoshi', sans-serif;
+  --spacing-xl: 24px;
+  --border-radius-lg: 0.75rem;
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  --animation-spin: spin 1s linear infinite;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
